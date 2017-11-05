@@ -13,9 +13,14 @@
 
 		</header>
 		<section>
+<!-- Display Result Here -->
 			<div id="demo"></div>
+<!-- ******************** -->
 
-			<form name="quiz" onsubmit="return getResult()">
+
+<!-- Form Start Here  -->
+
+			<form name="quiz" onsubmit="return getResult()"> 
 				<div class="quiz-head">
 					<div>
 						<h2>1. In which HTML element do we put in JavaScript code ?</h2>
@@ -73,6 +78,8 @@
 				</div>
 				 
 			</form>
+			
+		<!-- ************** -->
 		</section>
 
 		<footer>
