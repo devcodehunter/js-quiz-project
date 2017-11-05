@@ -11,7 +11,7 @@ function getResult() {
 	q4 = document.forms['quiz']['q4'].value,
 	q5 = document.forms['quiz']['q5'].value;
 
-	// Validation
+	//Basic Form Validation
 	for(var i=1; i<=totalQues; i++){
 		if(eval('q'+i) === null || eval('q'+i) === ''){
 		alert('You missed question '+i);
